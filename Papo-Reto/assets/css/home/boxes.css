@@ -45,6 +45,7 @@
 }
 .bold{
     font-weight: 700;
+    margin: 10px 0;
 }
 .details p{
     margin: 5px 0;
@@ -52,6 +53,9 @@
 .details ul{
     margin: 10px 0;
     list-style: none;
+}
+.details ul li{
+    margin: 5px 0;
 }
 .details h3{
     margin-top: 30px;
