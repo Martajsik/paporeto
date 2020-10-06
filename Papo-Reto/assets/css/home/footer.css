@@ -20,33 +20,18 @@
     justify-content: space-between;
     width: 300px;
 }
-.formulario{
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    width: 100%;
-
-    padding: 20px;
-    text-align: center;
+@media(max-width:1000px){
+    .formulario iframe{
+        width: 700px;
+    }
 }
-.formulario input{
-    width: 100%;
-    margin-top: 20px;
-    font-size: 1rem;
-    padding: 10px;
-    border-radius: 10px;
-    border: none;
+@media(max-width:700px){
+    .formulario iframe{
+        width: 500px;
+    }
 }
-.formulario input[type="submit"]{
-    cursor: pointer;
-    background-color: #000;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: .4s;
-    border: 1px solid #000;
-}
-.formulario input[type="submit"]:hover{
-    color: #000;
-    background-color: #fff;
+@media(max-width:500px){
+    .formulario iframe{
+        width: 300px;
+    }
 }
